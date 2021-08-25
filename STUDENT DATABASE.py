@@ -1,4 +1,4 @@
-
+#importing packages
 from PIL import Image,ImageFont,ImageDraw
 import win32ui
 from PIL import ImageWin
@@ -11,8 +11,7 @@ from datetime import datetime
 import ast   
 import sqlite3
 
-
-
+#Main window
 class main():
     def __init__(self,width,height):
         super().__init__()
